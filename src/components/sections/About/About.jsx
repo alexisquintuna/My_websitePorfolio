@@ -1,5 +1,5 @@
 import "./about.css";
-import Me from "../../images/memoji.png"
+import Me from "../../images/memoji.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -18,9 +18,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-
           <div className="about__cards">
-
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
@@ -39,18 +37,27 @@ const About = () => {
               <small>5+ Projects Completed</small>
             </article>
           </div>
-          
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Como estamos, How we doing, My name is Alexis Quintuña and I'm a
+            self taught motivated developer with a hunger to learn and keep
+            growing everyday. Creativity and simplicity is what I aim to create,
+             keeping the people engaged and inspired is my goal. Bringing those
+            ideas of yours to life is what im here for.
+            <br/> <br />
+            I dont like to define myself for the work I've done because everyday
+            something new can be learned, but I rather be defined by the work I
+            want to do. I prefer to keep learning and challenging myself to do
+            more. 
+            <br /><br/>
+            I'm a fast learner, able to pick up new skills and juggle
+            different projects and roles with relative ease.
           </p>
 
-          <a href="#Contact" className="btn btn-primary"> Let's Talk</a>
+          <a href="#Contact" className="btn btn-primary">
+            {" "}
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
