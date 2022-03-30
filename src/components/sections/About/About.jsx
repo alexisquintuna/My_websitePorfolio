@@ -1,7 +1,7 @@
 import "./about.css";
 import Me from "../../images/memoji.png";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { FiCoffee } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -26,15 +26,15 @@ const About = () => {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <FiCoffee className="about__icon" />
+              <h5>Coffee Cups Made</h5>
+              <small>100,000+</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Projects Completed</small>
+              <small>10+ Projects Completed</small>
             </article>
           </div>
 
