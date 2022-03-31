@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./about.css";
 import Me from "../../images/memoji.png";
 import { FaAward } from "react-icons/fa";
@@ -27,7 +28,9 @@ const About = () => {
 
             <article className="about__card">
               <FiCoffee className="about__icon" />
-              <h5>Coffee Cups Made</h5>
+              <h5>
+                <Link to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>Coffee Cups Made</Link>
+              </h5>
               <small>100,000+</small>
             </article>
 
@@ -42,16 +45,17 @@ const About = () => {
             Como estamos, How we doing, My name is Alexis Quintuña and I'm a
             self taught motivated developer with a hunger to learn and keep
             growing everyday. Creativity and simplicity is what I aim to create,
-             keeping the people engaged and inspired is my goal. Bringing those
+            keeping the people engaged and inspired is my goal. Bringing those
             ideas of yours to life is what im here for.
-            <br/> <br />
+            <br /> <br />
             I dont like to define myself for the work I've done because everyday
             something new can be learned, but I rather be defined by the work I
             want to do. I prefer to keep learning and challenging myself to do
-            more. 
-            <br /><br/>
-            I'm a fast learner, able to pick up new skills and juggle
-            different projects and roles with relative ease.
+            more.
+            <br />
+            <br />
+            I'm a fast learner, able to pick up new skills and juggle different
+            projects and roles with relative ease.
           </p>
 
           <a href="#Contact" className="btn btn-primary">

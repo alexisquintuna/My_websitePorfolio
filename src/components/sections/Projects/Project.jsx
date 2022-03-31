@@ -37,7 +37,7 @@ const Project = () => {
       <h2>Portfolio</h2>
 
       <div className="container project__container">
-        {data.map(({ id, image, title, github, live, /* description */ }) => {
+        {data.map(({ id, image, title, github, live /* description */ }) => {
           return (
             <article key={id} className="project__item">
               <div className="project__item-image">
@@ -46,8 +46,12 @@ const Project = () => {
               </div>
               <h3>{title}</h3>
               <div className="project__item-cta">
-                <a href={github} className="btn " target="_blank">Github</a>
-                <a href={live} className="btn btn-primary" target="_blank">Live Server</a>
+                <a href={github} className="btn " target="_blank">
+                  Github
+                </a>
+                <a href={live} className="btn btn-primary" target="_blank">
+                  Live Server
+                </a>
               </div>
             </article>
           );

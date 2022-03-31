@@ -1,0 +1,100 @@
+video {
+  width: 30vw;
+  height: 60vh;
+  display: block;
+  object-fit: cover;
+}
+
+.home{
+    font-size: 1.3rem !important;
+    padding-left: 11rem;
+}
+
+.MoreAboutMe {
+  margin-top: 3rem !important;
+}
+.moreabout__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.more__content p {
+  margin: 2rem 0 2.6rem;
+}
+
+.morepics__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.morepics__images {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* ======== MEDIUM DEVICE ======== */
+@media screen and (max-width: 1024px) {
+  .moreabout__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .home{
+      padding-bottom: 1rem;
+      justify-content: center;
+  }
+  video {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    object-fit: cover;
+  }
+  .moreabout__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .more__content p {
+    margin: 1rem 0 1.5rem;
+  }
+  .morepics__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* ======== SMALL DEVICES ======== */
+@media screen and (max-width: 600px) {
+  .moreabout__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  video {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    object-fit: cover;
+  }
+  .morepics__container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .more__content {
+    text-align: center;
+  }
+
+  .more__content p {
+    margin: 1.5rem 0;
+  }
+}

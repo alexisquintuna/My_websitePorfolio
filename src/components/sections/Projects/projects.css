@@ -33,13 +33,12 @@
   margin-bottom: 1rem;
 }
 
-.project__description:hover{
+.project__description:hover {
   position: relative;
   top: 50px;
   background: rgb(212, 118, 118, 0.5);
   color: rgb(99, 2, 2);
 }
-
 
 /* ============== MEDIUM ============== */
 

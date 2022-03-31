@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -6,9 +7,13 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <Link
+        to="/"
+        onClick={() => window.scrollTo(0, 0)}
+        className="footer__logo"
+      >
         Alexis Quintuna | Quintuna Alexis
-      </a>
+      </Link>
 
       <ul className="permalinks">
         <li>
@@ -41,11 +46,10 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-          <small>&copy; Coded by Alexis Quintuna</small>
-          <br/>
-          <small>Created with lots of patience and love</small>
-          </div>
-
+        <small>&copy; Coded by Alexis Quintuna</small>
+        <br />
+        <small>Created with lots of patience and love</small>
+      </div>
     </footer>
   );
 };
