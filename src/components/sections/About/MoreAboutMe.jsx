@@ -40,21 +40,22 @@ const MoreAboutMe = () => {
 
         <div className="more__content">
           <p>
-            When im not coding, im pouring milk into coffee! I would say making
-            peoples coffee is a passion of mine I enjoy it and take pride in
-            what I make/create with every cup of coffee. It's not only that but
+            When I'm not coding, I'm pouring milk into coffee! Working at a
+            coffee shop is a passion of mine. I enjoy it and take pride in what
+            I make/create with every cup of coffee. It's not only that but
             talking to the people that come into the shop too, making sure they
-            get what they want and leave with a smile on their face, make sure
-            their voice is heard. I currently work for a non-profit organization
+            get what they want and leave with a smile on their face, making sure
+            their voice's heard. I currently work for a non-profit organization
             called{" "}
             <a href="https://www.rooseveltcoffee.org/justice/" target="_blank">
               The Roosevelt CoffeeHouse
             </a>{" "}
-            where we fight the injustice of the world with a cup of coffee. I find myself always trying to learn or keep progressing no
-            matter what role im playing, nothing is ever too big or small always
-            put me 110%. Other things I have interest in is Music, Dancing,
-            Fashion, and Cars! I also have a cat named Pebbles who means the
-            world to me.{" "}
+            , where we fight the injustice of
+            the world with a cup of coffee. I'm always trying to learn or keep
+            progressing no matter what role I'm playing; nothing is ever too big
+            or small, always put my 110%. Other things I have an interest in are
+            Music, Dancing, Fashion, and Cars! I also have a cat named Pebbles
+            who means the world to me.{" "}
           </p>
         </div>
       </div>
