@@ -67,6 +67,10 @@
   color: var(--grey-color);
 }
 
+.more-btn {
+  margin-left: 1rem;
+}
+
 /* ======== MEDIUM DEVICE ======== */
 @media screen and (max-width: 1024px) {
   .about__container {

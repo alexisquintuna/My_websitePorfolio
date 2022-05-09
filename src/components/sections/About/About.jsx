@@ -62,6 +62,7 @@ const About = () => {
             {" "}
             Let's Talk
           </a>
+          <Link className="btn more-btn " to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>More About Me!</Link>
         </div>
       </div>
     </section>
