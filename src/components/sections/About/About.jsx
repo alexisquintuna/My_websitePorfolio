@@ -29,7 +29,9 @@ const About = () => {
             <article className="about__card">
               <FiCoffee className="about__icon" />
               <h5>
-                <Link to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>Coffee Cups Made</Link>
+                <Link to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>
+                  Coffee Cups Made
+                </Link>
               </h5>
               <small>100,000+</small>
             </article>
@@ -42,16 +44,16 @@ const About = () => {
           </div>
 
           <p>
-            Como estamos, How we doing, My name is Alexis Quintuña and I'm a
-            self taught motivated developer with a hunger to learn and keep
-            growing everyday. Creativity and simplicity is what I aim to create,
-            keeping the people engaged and inspired is my goal. Bringing those
-            ideas of yours to life is what im here for.
+            Hola! Hello! My name is Alexis Quintuña. I'm a self-taught motivated
+            developer with a hunger to learn and keep growing every day.
+            Originality and simplicity is what I aim to create. Keeping the
+            people engaged and inspired is my goal. Bringing your ideas to life
+            is what I'm here to do.
             <br /> <br />
-            I dont like to define myself for the work I've done because everyday
-            something new can be learned, but I rather be defined by the work I
-            want to do. I prefer to keep learning and challenging myself to do
-            more.
+            I don't define myself for the work I've done because every day
+            something new can be learned, but I will rather be defined by the
+            work I want to do. I prefer to keep learning and challenging myself
+            to do more.
             <br />
             <br />
             I'm a fast learner, able to pick up new skills and juggle different
@@ -62,7 +64,13 @@ const About = () => {
             {" "}
             Let's Talk
           </a>
-          <Link className="btn more-btn " to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>More About Me!</Link>
+          <Link
+            className="btn more-btn "
+            to="/MoreAboutMe"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            More About Me!
+          </Link>
         </div>
       </div>
     </section>
