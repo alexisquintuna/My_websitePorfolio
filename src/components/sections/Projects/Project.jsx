@@ -1,15 +1,15 @@
 import "./projects.css";
 import Meetups from "../../images/GenereMeetups.png";
-import Site from "../../images/GenereSite.png";
+import Site from "../../images/GenereNatus2.png";
 import Meals from "../../images/YuriMeals.png";
 
 const data = [
   {
     id: 1,
     image: Site,
-    title: "Genere Natus Site",
-    github: "https://github.com/alexisquintuna/midnight_club",
-    live: "https://genere-natus.vercel.app/",
+    title: "Genere Natus Site 2.0",
+    github: "https://github.com/alexisquintuna/Genere2.0",
+    live: "https://generenatus2-0.vercel.app/",
     // description: "Official Site for Genere Natus. A club for street racers to enjoy racing safely while doing hooligan stuff. ",
   },
   {

@@ -29,14 +29,14 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>M.E.R.N.</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />
               <div>
-                <h4>ReactJS / NodeJS</h4>
+                <h4>Vue.js</h4>
                 <small>Experienced</small>
               </div>
             </article>
@@ -49,21 +49,21 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />
               <div>
+              <h4>C#</h4>
+              <small>Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCaretRight className="experience__details-icons" />
+              <div>
+              <h4>SQL</h4>
+              <small>Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCaretRight className="experience__details-icons" />
+              <div>
               <h4>Python</h4>
-              <small>Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <AiFillCaretRight className="experience__details-icons" />
-              <div>
-              <h4>Django</h4>
-              <small>Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <AiFillCaretRight className="experience__details-icons" />
-              <div>
-              <h4>MongoDB</h4>
               <small>Experienced</small>
               </div>
             </article>

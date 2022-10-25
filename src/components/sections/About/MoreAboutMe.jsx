@@ -53,8 +53,8 @@ const MoreAboutMe = () => {
             , where we fight the injustice of
             the world with a cup of coffee. I'm always trying to learn or keep
             progressing no matter what role I'm playing; nothing is ever too big
-            or small, always put my 110%. Other things I have an interest in are
-            Music, Dancing, Fashion, and Cars! I also have a cat named Pebbles
+            or small, always put my 110%. I'm also interested in
+            music, dancing, fashion, and cars! I also have a cat named Pebbles
             who means the world to me.{" "}
           </p>
         </div>
