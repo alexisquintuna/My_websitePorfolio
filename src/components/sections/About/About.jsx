@@ -26,7 +26,7 @@ const About = () => {
               <small>1+ Years Working</small>
             </article>
 
-            <article className="about__card">
+            <article className="about__card" id="coffee__card">
               <FiCoffee className="about__icon" />
               <h5>
                 <Link to="/MoreAboutMe" onClick={() => window.scrollTo(0, 0)}>
