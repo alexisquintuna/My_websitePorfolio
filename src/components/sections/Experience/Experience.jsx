@@ -44,7 +44,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-          <h3>BackEnd Development</h3>
+          <h3>BackEnd/Database Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />

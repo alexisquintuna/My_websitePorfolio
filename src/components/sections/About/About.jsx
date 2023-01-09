@@ -56,8 +56,11 @@ const About = () => {
             to do more.
             <br />
             <br />
-            I'm a fast learner, able to pick up new skills and juggle different
-            projects and roles with relative ease.
+            I'm a fast learner, able to pick up new skills and easily adaptable to any given needs.
+            On top of all of that I love working with others and get along with everyone and anyone.
+            <br />
+            <br />
+            <i>"There is nothing impossible to they who will try." - Alexander the Great.</i>
           </p>
 
           <a href="#Contact" className="btn btn-primary">

@@ -1,5 +1,5 @@
 import "./projects.css";
-import Meetups from "../../images/GenereMeetups.png";
+import LoopStudios from "../../images/LoopStudios.png";
 import Site from "../../images/GenereNatus2.png";
 import Meals from "../../images/YuriMeals.png";
 
@@ -14,10 +14,10 @@ const data = [
   },
   {
     id: 2,
-    image: Meetups,
-    title: "Genere Natus Meetup Locations",
-    github: "https://github.com/alexisquintuna/GenereNatusMeetup/tree/main",
-    live: "https://genere-natus-meetup.vercel.app/",
+    image: LoopStudios,
+    title: "LoopStudios Landing Page",
+    github: "https://github.com/alexisquintuna/loopstudios",
+    live: "https://stately-crisp-b6c745.netlify.app/",
     // description: "A site where the locations for the car meets will be held at. Three different locations for the night, and one can also put in other secure locations.",
   },
   {
