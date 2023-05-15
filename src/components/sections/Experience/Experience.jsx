@@ -15,14 +15,14 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML/CSS</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <AiFillCaretRight className="experience__details-icons" />
               <div>
-                <h4>CSS</h4>
+                <h4>WordPress/SquareSpace</h4>
                 <small>Experienced</small>
               </div>
             </article>

@@ -2,6 +2,7 @@ import "./projects.css";
 import LoopStudios from "../../images/LoopStudios.png";
 import Site from "../../images/GenereNatus2.png";
 import Meals from "../../images/YuriMeals.png";
+import CatCrack from "../../images/CatCrackCover.png";
 
 const data = [
   {
@@ -28,6 +29,13 @@ const data = [
     live: "https://food-app-rust.vercel.app/",
     // description: "A food ordering app. Where the customer submits an order and it gets sent to a firebase database where the order and customers information is stored in.",
   },
+  {
+    id: 4,
+    image: CatCrack,
+    title: "Cat Crack",
+    github: "https://github.com/alexisquintuna/CatCrackJavascriptAnimations",
+    live: "https://catcrack.com/",
+  }
 ];
 
 const Project = () => {
@@ -40,10 +48,10 @@ const Project = () => {
         {data.map(({ id, image, title, github, live /* description */ }) => {
           return (
             <article key={id} className="project__item">
-              <div className="project__item-image">
+              <a target="_blank" href={live} className="project__item-image">
                 {/* <p className="project__description">{description}</p> || New Update not sure how im going to make this work for now */}
                 <img src={image} alt={title} />
-              </div>
+              </a>
               <h3>{title}</h3>
               <div className="project__item-cta">
                 <a href={github} className="btn " target="_blank">
