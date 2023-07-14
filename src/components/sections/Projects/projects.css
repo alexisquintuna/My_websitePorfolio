@@ -40,6 +40,23 @@
   color: rgb(99, 2, 2);
 }
 
+.side__projects{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.side__projects a {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.side__projects a:hover{
+  border:1px solid #419d78;
+}
+
 /* ============== MEDIUM ============== */
 
 @media screen and (max-width: 1024px) {

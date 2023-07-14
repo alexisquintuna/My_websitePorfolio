@@ -7,10 +7,10 @@ import CatCrack from "../../images/CatCrackCover.png";
 const data = [
   {
     id: 1,
-    image: Site,
-    title: "Genere Natus Site 2.0",
-    github: "https://github.com/alexisquintuna/Genere2.0",
-    live: "https://generenatus2-0.vercel.app/",
+    image: CatCrack,
+    title: "Cat Crack",
+    github: "https://github.com/alexisquintuna/CatCrackJavascriptAnimations",
+    live: "https://catcrack.com/",
     // description: "Official Site for Genere Natus. A club for street racers to enjoy racing safely while doing hooligan stuff. ",
   },
   {
@@ -31,10 +31,10 @@ const data = [
   },
   {
     id: 4,
-    image: CatCrack,
-    title: "Cat Crack",
-    github: "https://github.com/alexisquintuna/CatCrackJavascriptAnimations",
-    live: "https://catcrack.com/",
+    image: Site,
+    title: "Genere Natus Site 2.0",
+    github: "https://github.com/alexisquintuna/Genere2.0",
+    live: "https://generenatus2-0.vercel.app/",
   }
 ];
 
@@ -64,6 +64,9 @@ const Project = () => {
             </article>
           );
         })}
+      </div>
+      <div className="side__projects">
+        <a href="https://codepen.io/alexisquintuna" target="_blank">For Fun Side Projects</a>
       </div>
     </section>
   );
